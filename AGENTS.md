@@ -3,6 +3,8 @@
 Ten plik dotyczy całego repozytorium. Przed zmianami przeczytaj
 [przekazanie projektu](docs/PRZEJECIE-PROJEKTU.md), a następnie dokumentację
 modułu, który zmieniasz. Nie zakładaj znajomości wcześniejszej rozmowy.
+Na oryginalnym komputerze sprawdź też `.build/LOCAL-HANDOFF.md`, jeżeli istnieje:
+zawiera prywatne lokalizacje dowodów i kontekst narzędzi. Nie publikuj tego pliku.
 
 ## Cel i granice
 

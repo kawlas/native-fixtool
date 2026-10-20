@@ -11,6 +11,7 @@ LB_VERSION="$(/usr/bin/plutil -extract CFBundleShortVersionString raw "$LB_APP_D
 ditto "$LB_APP_DIR" "$LB_STAGE_DIR/Native FixTool.app"
 ln -sfn /Applications "$LB_STAGE_DIR/Applications"
 cp "$LB_PROJECT_DIR/README.md" "$LB_STAGE_DIR/README.md"
+cp "$LB_PROJECT_DIR/AGENTS.md" "$LB_STAGE_DIR/AGENTS.md"
 cp "$LB_PROJECT_DIR/LICENSE" "$LB_STAGE_DIR/LICENSE.txt"
 cp "$LB_PROJECT_DIR/LICENSE" "$LB_STAGE_DIR/LICENSE"
 cp "$LB_PROJECT_DIR/INSTRUKCJA.md" "$LB_STAGE_DIR/INSTRUKCJA.md"

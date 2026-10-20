@@ -20,7 +20,8 @@ application name and publication status at the time of those checks.
 ## Development handover — 2026-10-20
 
 Added `AGENTS.md`, the Polish handover guide and entry links; source packaging
-now includes both documents. No app or NI operation code changed. All local
+now includes both documents; future DMGs also include the root `AGENTS.md`
+linked by their README. No app or NI operation code changed. All local
 Markdown file links resolve. A temporary clean copy produced **48/48 expected
 source files**, byte-identical to the working source; environment files, fake
 private reports, runtime and scan fixtures were excluded. Existing release
