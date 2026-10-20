@@ -9,7 +9,7 @@ project = Path(__file__).resolve().parent.parent
 version = plistlib.loads((project / 'Info.plist').read_bytes())['CFBundleShortVersionString']
 files = [project / name for name in [
     'README.md', 'INSTRUKCJA.md', 'CZYTAJ NAJPIERW.html', 'VERIFICATION.md',
-    'CHANGELOG.md', 'LICENSE', 'Info.plist', 'build.sh', 'Node.entitlements.plist',
+    'CHANGELOG.md', 'LICENSE', 'AGENTS.md', 'Info.plist', 'build.sh', 'Node.entitlements.plist',
     'Resources/Fonts/Roboto.ttf', 'Resources/Fonts/OFL.txt', 'Resources/Fonts/README.md',
     'node-SHASUMS256.txt', 'AppIcon.icns', '.gitignore', '.design/brief.md',
     'package.json', 'package-lock.json', 'eslint.config.mjs', '.prettierrc.json', '.swift-format',

@@ -1,5 +1,9 @@
 # Budowanie, testy i wydawanie
 
+Przy przejmowaniu projektu zacznij od [AGENTS.md](../AGENTS.md) i
+[przewodnika przejęcia](PRZEJECIE-PROJEKTU.md). Zawierają aktualny status publikacji,
+niezmienniki silnika, ograniczenia i zakres testów, których jeszcze nie wykonano.
+
 Kod i bieżące wydanie 0.3.5 podlegają [Native FixTool Private Use License 1.0](../LICENSE). Kompilacja nie zmienia warunków: dozwolony jest tylko użytek prywatny, bez użycia firmowego, organizacyjnego, zawodowego lub komercyjnego. Poniższe instrukcje techniczne nie udzielają dodatkowych praw do użycia.
 
 ## Wymagania

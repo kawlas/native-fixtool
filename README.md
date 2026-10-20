@@ -14,6 +14,7 @@ The original code, app and documentation are licensed for **private personal use
 
 ## Dokumentacja po polsku
 
+- **Przejmujesz rozwój? Zacznij od [AGENTS.md](AGENTS.md) i [przekazania projektu](docs/PRZEJECIE-PROJEKTU.md).**
 - [CZYTAJ NAJPIERW.html](CZYTAJ%20NAJPIERW.html) — otwórz dwuklikiem, aby zacząć.
 - [INSTRUKCJA.md](INSTRUKCJA.md) — wszystkie zadania, przyciski i typowe problemy.
 - [Architektura i mapa plików](docs/ARCHITEKTURA.md).

@@ -4,7 +4,28 @@ The application, menu, window, documentation and packages now use **Native FixTo
 
 **33/33 native UI checks and 36/36 backend tests passed** after the corrected Native FixTool name, together with ESLint, Prettier, strict swift-format, zsh syntax and Python AST checks. Universal build and ad-hoc signature verification passed.
 
-The rename changes no NI update/repair logic. Version 0.3.5 is prepared for a public pre-release under `kawlas/native-fixtool`; publishing status is verified separately. Earlier reports below retain their historical application name.
+The rename changes no NI update/repair logic. Version 0.3.5 was published as a
+[public pre-release](https://github.com/kawlas/native-fixtool/releases/tag/v0.3.5).
+All three asset SHA-256 digests matched the local DMG, checksum file and source ZIP.
+The 46 source files on `main` were checked byte for byte after the final formatting
+commits; 15/15 ignore-rule cases passed, and the selected-source credential-pattern
+scan had no findings. No environment files, local NI runtime or private QA reports
+were committed. This is not an exhaustive independent security audit.
+
+Later development documentation on `main` starts at [AGENTS.md](AGENTS.md) and
+[the handover guide](docs/PRZEJECIE-PROJEKTU.md); released assets remain historical
+and are not silently replaced. Earlier reports below retain their historical
+application name and publication status at the time of those checks.
+
+## Development handover — 2026-10-20
+
+Added `AGENTS.md`, the Polish handover guide and entry links; source packaging
+now includes both documents. No app or NI operation code changed. All local
+Markdown file links resolve. A temporary clean copy produced **48/48 expected
+source files**, byte-identical to the working source; environment files, fake
+private reports, runtime and scan fixtures were excluded. Existing release
+assets were not overwritten. The full lint command passed again after these
+changes. Historical backend/UI results above were not rerun for documentation.
 
 # 0.3.4 — Native Access style, 2026-10-20
 
