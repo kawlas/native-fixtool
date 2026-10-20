@@ -1,0 +1,25 @@
+.build/
+dist/
+vendor/
+node-v*.tar.gz
+live-*.ndjson
+migration-snapshot.ndjson
+*.dmg
+.DS_Store
+node_modules/
+
+# Local recovery data, credentials and signing material are never source files.
+.library-bridge/
+*.ndjson
+.env
+.env.*
+!.env.example
+*.p12
+*.p8
+*.pem
+*.mobileprovision
+*.dSYM/
+
+# Keep local design audits out of the published project.
+.design/*
+!.design/brief.md
