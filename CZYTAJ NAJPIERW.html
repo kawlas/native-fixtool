@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="pl">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Native FixTool — projekt i instrukcja</title>
+<style>
+  body{font:17px/1.65 -apple-system,BlinkMacSystemFont,sans-serif;color:#202530;background:#f5f6f8;margin:0}
+  main{max-width:820px;margin:40px auto;padding:32px;background:white;border-radius:12px}
+  h1{font-size:32px;line-height:1.2}h2{margin-top:32px;font-size:23px}h3{font-size:19px}
+  a{color:#064ca6}code{font-size:14px;overflow-wrap:anywhere}li{margin:7px 0}
+  table{width:100%;border-collapse:collapse;font-size:15px}th,td{text-align:left;padding:10px;border-bottom:1px solid #ddd;vertical-align:top}
+  .intro{font-size:20px;color:#48515f}.task{padding:4px 20px 12px;border-left:3px solid #1d61b8;margin:24px 0}
+  @media(max-width:650px){main{margin:0;padding:22px;border-radius:0}h1{font-size:27px}}
+</style>
+<main>
+<h1>Native FixTool</h1>
+<p><strong>Nieoficjalne narzędzie, niezależne od Native Instruments. Bezpłatne wyłącznie do użytku prywatnego.</strong> Użytek firmowy, organizacyjny, zawodowy i komercyjny jest zabroniony, także w jednoosobowej działalności i freelancingu. Samo zgłoszenie autorowi nie udziela zgody. Obowiązuje <a href="LICENSE">Native FixTool Private Use License 1.0</a>, nie MIT. Nie jest produktem Native Instruments i nie jest przez tę firmę zatwierdzone ani wspierane. Własne licencje NI na instrumenty pozostają wymagane.</p>
+<p class="intro">Zachowaj biblioteki na swoim dysku. Przywróć ich rozpoznawanie w Native Access i sprawdzaj aktualizacje.</p>
+<p>Wersja 0.3.5. Ten folder zawiera cały projekt: kod, dokumentację, testy, narzędzia do budowania i wcześniejsze materiały robocze. Gotowa aplikacja jest w <strong>dist → Native FixTool.app</strong>. Zainstalowaną wersję znajdziesz też w Aplikacjach i pod skrótem na pulpicie.</p>
+<h2>Jak zacząć</h2>
+<ol><li>Otwórz Native Access i zaloguj się na konto z licencjami.</li><li>Otwórz Native FixTool i wybierz zadanie poniżej.</li><li>Wskaż wspólny folder bibliotek, np. <code>/Volumes/MUZA/NI</code>. W środku powinny być foldery instrumentów. Nie wybieraj jednego WAV-a ani pojedynczego instrumentu.</li></ol>
+<div class="task"><h3>Naprawa</h3><p>Native Access nie widzi bibliotek na dysku? Napraw to bez pobierania ich od nowa.</p><p>Otwórz <strong>Dostępne</strong>, zaznacz biblioteki i kliknij <strong>Sprawdź plan naprawy</strong>. Przeczytaj podsumowanie. Dopiero <strong>Rozpocznij naprawę</strong> zapisuje zmiany.</p></div>
+<div class="task"><h3>Aktualizacje</h3><p>Zainstaluj nowe wersje bez zbędnego pobierania całych bibliotek.</p><p>Zaznacz produkty. Opcjonalny przycisk <strong>Sprawdź rozmiar pobierania</strong> porównuje pliki SSD z nową wersją NI, bez pobierania dźwięków. Następnie <strong>Sprawdź plan aktualizacji → Rozpocznij aktualizacje</strong>.</p><p>Rozmiar jest szacunkiem. Duże zmienione archiwum może wymagać pełnego pobrania. NI wykonuje instalację i ostatecznie sprawdza pliki.</p></div>
+<div class="task"><h3>Przeniesienie</h3><p>Zmieniasz komputer lub system? Użyj bibliotek ze swojego dysku bez ponownego pobierania.</p><p>Na starym Macu kliknij <strong>Zapisz dane bibliotek na dysku</strong>. Na nowym podłącz ten sam SSD, zaloguj się na swoje konto NI i wybierz <strong>Naprawa</strong>. Zachowaj ukryty folder <code>.library-bridge</code>. Zapis danych nie jest dodatkową kopią wszystkich sampli.</p></div>
+<h2>Zakładki i przyciski</h2>
+<table><thead><tr><th>Nazwa</th><th>Co robi</th></tr></thead><tbody>
+<tr><td>Zainstalowane</td><td>NI już rozpoznaje te biblioteki. Nie potrzebują naprawy.</td></tr>
+<tr><td>Dostępne</td><td>Pliki są na dysku, ale trzeba przywrócić ich rozpoznawanie.</td></tr>
+<tr><td>Problemy</td><td>Automatyczna naprawa jest zablokowana; przy bibliotece jest powód.</td></tr>
+<tr><td>Wszystkie</td><td>Cała lista. Zmiana zakładki niczego nie instaluje.</td></tr>
+<tr><td>Zaznacz do naprawy</td><td>Tylko wybiera dostępne biblioteki z widocznej listy.</td></tr>
+<tr><td>Odśwież listę</td><td>Ponownie odczytuje dane, bez pobierania sampli.</td></tr>
+<tr><td>Wstrzymaj / Wznów aktualizacje</td><td>Steruje zadaniami uruchomionymi w tej sesji przez narzędzie.</td></tr>
+<tr><td>Jak to działa?</td><td>Instrukcja dostępna również w aplikacji.</td></tr>
+<tr><td>Historia / Zapisz ostatni raport</td><td>Szczegóły wyniku i błędów. Raport może zawierać lokalne ścieżki.</td></tr>
+</tbody></table>
+<h2>Gdy coś nie działa</h2>
+<p>Przy braku dostępu wybierz folder ponownie i zezwól macOS na dostęp do dysku. Przy brakującej licencji sprawdź konto NI. Biblioteka od innej osoby nie dodaje licencji. Folder Native Instruments w Dokumentach służy zwykle do presetów i ustawień; nie jest tym samym co duże biblioteki SSD.</p>
+<p>Adapter obsługuje Native Access 3.26.0 i NTKDaemon 1.32 (R0). Inna wersja wymaga sprawdzonego adaptera. Lokalny pakiet ma podpis ad hoc; wydanie publiczne wymaga podpisu i notaryzacji Apple przez właściciela projektu.</p>
+<h2>Pełna dokumentacja i kod</h2>
+<p>Pliki <code>.md</code> możesz otworzyć w edytorze tekstu lub edytorze kodu.</p>
+<ul>
+<li><a href="INSTRUKCJA.md">Pełna instrukcja — wszystkie przyciski i problemy</a></li>
+<li><a href="docs/ARCHITEKTURA.md">Architektura i mapa plików</a></li>
+<li><a href="docs/ROZWOJ.md">Budowanie, testy i wydawanie</a></li>
+<li><a href="docs/BEZPIECZENSTWO-I-ODZYSKIWANIE.md">Dane i odzyskiwanie po błędzie</a></li>
+<li><a href="docs/CLI.md">Polecenia backendu</a></li>
+<li><a href="docs/AUDYT-KODU.md">Przegląd kodu i wyniki testów</a></li>
+<li><a href="docs/TESTY-I-LINT.md">Testy aplikacji i lint</a></li>
+<li><a href="CHANGELOG.md">Historia zmian</a></li>
+</ul>
+<p>Główne źródła: <code>Sources/LibraryBridge.swift</code> i <code>backend/</code>. Testy: <code>tests/</code>. Budowanie: <code>build.sh</code>. Do udostępnienia kodu na warunkach licencji użyj archiwum <code>dist/Native-FixTool-0.3.5-source.zip</code>, a nie całego folderu roboczego z prywatnymi wynikami. Starsze wydania w materiałach roboczych mają własne wcześniejsze warunki licencyjne.</p>
+</main></html>

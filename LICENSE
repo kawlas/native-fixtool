@@ -1,0 +1,96 @@
+Native FixTool — LICENCJA WYŁĄCZNIE DO UŻYTKU PRYWATNEGO 1.0
+Identyfikator: LicenseRef-NI-Fix-Tool-Private-Use-1.0
+Obowiązuje dla wydania 0.3.2 i kolejnych wydań oznaczonych tą licencją.
+
+Copyright (c) 2026 Native FixTool contributors
+Wszelkie prawa nieudzielone wyraźnie w tej licencji są zastrzeżone.
+
+1. ZAKRES
+
+Licencja obejmuje własny kod, aplikację i dokumentację Native FixTool
+(„Oprogramowanie”). Licencjodawcami są posiadacze praw autorskich do tych
+utworów. Jest to własna licencja ograniczająca zastosowania, a nie MIT
+ani licencja open source w rozumieniu Open Source Initiative.
+
+2. DOZWOLONY UŻYTEK PRYWATNY
+
+Osoba fizyczna może bezpłatnie pobierać, instalować, uruchamiać, kopiować,
+czytać i modyfikować Oprogramowanie wyłącznie na własne potrzeby prywatne,
+osobiste lub hobbystyczne, niezwiązane z pracą, działalnością gospodarczą,
+świadczeniem usług ani realizacją celów organizacji.
+
+Osoba zatrudniona lub prowadząca działalność gospodarczą może korzystać
+wyłącznie prywatnie, poza zakresem tej pracy lub działalności i nie w imieniu
+firmy. Sama obecność konta firmowego lub prowadzenie działalności nie
+wyklucza rzeczywistego, odrębnego użytku prywatnego.
+
+3. ZAKAZ UŻYTKU FIRMOWEGO I ZAWODOWEGO
+
+Nie udziela się prawa korzystania firmom, przedsiębiorstwom, instytucjom
+ani innym organizacjom, ani osobom działającym na ich rzecz lub w ich imieniu.
+Zabronione jest również korzystanie zawodowe, służbowe, gospodarcze
+i komercyjne przez osoby fizyczne, w tym jednoosobowe działalności
+gospodarcze i freelancerów.
+
+Zakaz obejmuje między innymi użycie w studiu lub infrastrukturze firmy,
+obsługę klientów, odpłatne zlecenia, zawodową produkcję muzyczną, wsparcie IT
+oraz wykorzystanie jako części produktu lub usługi. Dotyczy także użycia
+wewnętrznego i nieodpłatnego na rzecz firmy lub organizacji, niezależnie
+od tego, czy samo użycie Oprogramowania przynosi bezpośredni dochód.
+
+Samo poinformowanie autora o takim użyciu nie udziela na nie zezwolenia.
+
+4. KOPIOWANIE I MODYFIKACJE
+
+Dozwolone jest bezpłatne przekazywanie kopii innym osobom fizycznym wyłącznie
+do użytku określonego w punkcie 2, z zachowaniem pełnej treści tej licencji,
+informacji o prawach autorskich i oznaczenia nieoficjalnego charakteru projektu.
+Modyfikacje muszą być wyraźnie oznaczone. Do kopii i modyfikacji stosuje się
+te same ograniczenia. Nie wolno sprzedawać Oprogramowania, udzielać do niego
+szerszych praw, usuwać ograniczeń licencji ani oferować go jako części
+produktu lub usługi dla firm lub do celów zawodowych.
+
+5. ODRĘBNE PRAWA I SKŁADNIKI
+
+Oprogramowanie jest nieoficjalne i niezależne od Native Instruments.
+Native Instruments nie jest jego autorem, sponsorem ani podmiotem
+zatwierdzającym. Licencja nie udziela praw do instrumentów, bibliotek,
+aktywacji, znaków towarowych ani kodu Native Instruments.
+
+Node.js i pozostałe składniki osób trzecich zachowują własne licencje
+i informacje zawarte w Node-LICENSE.txt oraz Fonts/OFL.txt (Roboto).
+Ich praw nie ogranicza niniejsza
+licencja. Kod Native Instruments nie jest rozpowszechniany z projektem.
+
+Ta licencja nie zmienia warunków kopii wcześniejszych wydań, które zostały
+już zgodnie z prawem otrzymane na innej licencji. Nie ogranicza też uprawnień,
+których nie można wyłączyć na podstawie bezwzględnie obowiązującego prawa.
+
+6. BRAK GWARANCJI I ODPOWIEDZIALNOŚĆ
+
+Oprogramowanie udostępniane jest w stanie, w jakim się znajduje, bez
+gwarancji prawidłowego działania, zgodności z przyszłymi wersjami NI,
+przydatności do określonego celu ani braku błędów. W zakresie dozwolonym
+przez obowiązujące prawo autorzy nie odpowiadają za szkody wynikające
+z korzystania z Oprogramowania. Nie wyłącza to odpowiedzialności, której
+nie można wyłączyć na podstawie obowiązującego prawa.
+
+7. NARUSZENIE WARUNKÓW
+
+Uprawnienia udzielone tą licencją wygasają w razie naruszenia jej warunków.
+Nie można przenieść na inną osobę praw szerszych niż określone tutaj.
+
+ENGLISH SUMMARY (the Polish terms above govern)
+
+Native FixTool Private Use License 1.0. Free use is permitted only by natural
+persons for their own private, personal or hobby purposes, unrelated to
+employment, business, professional work, services or organisational use.
+Companies and organisations, and persons acting for them, are not permitted
+to use the Software. Professional, commercial and business use by individuals,
+including sole traders and freelancers, is also prohibited. Merely notifying
+the author does not grant permission. Free redistribution to eligible private
+users and modifications are permitted only under the same terms, retaining
+the complete licence, notices and clearly identifying modifications.
+Third-party components retain their own licences. No Native Instruments
+product licences are granted. Earlier lawfully received copies under other
+licences are unaffected. No warranty is provided to the extent allowed by law.

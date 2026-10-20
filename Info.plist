@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+<key>CFBundleIdentifier</key><string>app.librarybridge.mac</string>
+<key>CFBundleName</key><string>Native FixTool</string>
+<key>CFBundleDisplayName</key><string>Native FixTool</string>
+<key>CFBundleExecutable</key><string>LibraryBridge</string>
+<key>CFBundlePackageType</key><string>APPL</string>
+<key>CFBundleShortVersionString</key><string>0.3.5</string>
+<key>CFBundleVersion</key><string>8</string>
+<key>LSMinimumSystemVersion</key><string>14.0</string>
+<key>NSRemovableVolumesUsageDescription</key><string>Read your selected library folder and save portable recovery records on that drive.</string>
+<key>NSHighResolutionCapable</key><true/>
+<key>CFBundleIconFile</key><string>AppIcon</string>
+<key>NSHumanReadableCopyright</key><string>Copyright © 2026 Native FixTool contributors. Unofficial. Private use only; no business or professional use.</string>
+<key>CFBundleDevelopmentRegion</key><string>en</string>
+<key>CFBundleLocalizations</key><array><string>en</string><string>pl</string></array>
+</dict></plist>
